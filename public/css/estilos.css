@@ -1,0 +1,119 @@
+* {
+ padding: 0; margin: auto; text-align: center;  
+}
+
+
+
+
+#navegador {
+     background-color: #5f2c39; padding: 0.5em;
+     
+     width: 90%;
+     height: auto;
+     border-radius: 10px;
+     
+     
+     margin-top: 0.5%;
+
+ 
+    
+           }
+
+#navegador li
+{
+    
+    padding: 0.1em 1em 0.5em 1em; 
+    background-color: #6b7773; 
+    width: 10%;
+    
+    list-style-type: none;
+    position: relative; 
+    border-radius: 28px;
+    margin: 0.7% 2%;
+   
+
+    --auto-grid-min-size: 5rem;
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1rem;
+    
+
+   
+}
+
+#subseccion1, #subseccion2, #subseccion3, #subseccion4 
+{
+position: absolute; top: 100%; left: 0px;  
+background-color: #000000; font:normal 0.8em arial;  
+padding: 0.2em 0.5em ; display: none;
+width: 90%;
+border-radius: 7px;
+
+
+
+
+
+
+}	
+
+#navegador li:hover 
+{
+     background-color: #990033; 
+}
+
+#navegador li a:link, #navegador li a:visited 
+{ 
+       color: #feffe4; text-decoration: none; 
+}
+#navegador li a:hover, #navegador li a:active 
+{ 
+       color:#ffd7a9 ; text-decoration: none; 
+}
+
+#contenedor {
+
+  
+  background-color: rgb(49, 41, 41);
+  position: absolute;
+  top: 10%;
+  right: 35%;
+  width: 30%;
+  height: 30%;
+  margin-top: 10%;
+  border-radius: 20px;
+  
+  
+
+}
+
+#contenedor #textocontenedor
+{
+color: rgb(18, 189, 18);
+background-color: rgb(235, 15, 15);
+width: 80%;
+border-radius: 20px;
+margin-top: 2%;
+height: 80%;        
+
+}
+
+#imagenmovil
+{
+       width: 10%;
+       display:none;
+       position: absolute;
+       left: 3%;
+       margin-top: 2%;       
+       border-radius: 18px;
+}
+
+#menulateralmovil
+{
+       background-color: #978a8a;
+       width: 20%;
+       height: 40%;
+       position: absolute;
+       left: 3%;
+       top: 9%;
+       display: none;
+}
